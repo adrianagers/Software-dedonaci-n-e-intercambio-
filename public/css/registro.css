@@ -1,0 +1,161 @@
+/* backgroud fondo en general  */
+body {
+    background-color: #1d1d20;
+}
+
+/* titulo de registro */
+
+.tituloInicio {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #734a91;
+    
+}
+
+/* Boton de inicio */
+.colorBoton {
+    text-decoration: none;
+    color: #e0bbf5;
+    background-color:#734a91  ;
+    box-shadow: 3px 4px 3px 4px rgba(255, 255, 255, 0.322);
+    width: 50%;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.colorBoton:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #bb80e5;
+    box-shadow: 3px 4px 3px 4px #734a91;
+}
+/* .color del los controls */
+/* .controls{
+    background-color: #27292D;
+    color: white;
+}
+.controls:hover{
+    background-color: #27292D;
+    color: white;
+} */
+
+.contenedorCompleto {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    /* margin-left: 1%; */
+
+}
+.seccionButon{
+display: flex;
+align-content: center;
+flex-direction: center;
+}
+
+/* label color con inputs */
+.colorLabel {
+    color: white;
+}
+
+/* .inputPeque {
+    background-color: #27292D;
+}
+
+.inputPeque:hover {
+    background-color: #27292D;
+    border: solid #7a3c02b7;
+} */
+
+/* contenedor de interno */
+.divInterno {
+    background-color: #e0b0ff;
+    margin-top: 1%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #734a91;
+}
+
+/* Imagen background de letrero */
+.imagen {
+    width: 50%;
+    background-size: cover;
+    border-radius: 3%;
+    /* background-image: url(../image/carrusel7.jpg); */
+    background: linear-gradient(to right, #2d123ed4, #2d0a448a, #30084a97), url(../img/carrusel7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.imagen2 {
+    width: 50%;
+    border-radius: 3%;
+    background-size: cover;
+    /* background-image: url(../image/compu.jpg); */
+    background: linear-gradient(to right, #c47bf19d, #c589ec4f, #d9a6fb6a), url(../img/carrusel5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* posicion del div */
+.caption {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+/* titulo que esta por encima del la imagen  */
+.letraImagen {
+    color: rgb(255, 249, 249);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.textoicon {
+    width: 80%;
+    margin: 5% auto auto 10%;
+
+}
+
+.fa-check-circle {
+    color: #914fe0;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.mensajeparrafo {
+    margin-left: 9%;
+    font-size: 25px;
+    margin-top: -8%;
+    color: white;
+    /* font-weight: lighter; */
+}
+
+/* boton de registate */
+.colorRegistro {
+    margin-left: 30%;
+    border: 2px solid #e0bbf5;
+    background: #e0bbf5;
+    color: #8829c7;
+    width: 35%;
+    font-size: 18px;
+}
+
+.colorRegistro:hover {
+    margin-left: 30%;
+    background-color: #734a91;
+    color: #e0bbf5;
+    width: 35%;
+    font-size: 18px;
+    border: 2px solid #734a91;
+}

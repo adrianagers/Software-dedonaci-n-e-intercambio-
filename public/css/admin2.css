@@ -1,0 +1,103 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #27292d;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-position: initial;
+
+}
+table tr td {
+    vertical-align: middle !important;
+}
+
+.tables2{
+    margin-top: 10%;
+    color: white;
+}
+
+.navimagen{
+
+    width: 20px;
+    height: 20px;
+}
+.small{
+    background: red;
+    width: 1%;
+}
+#colornav{
+
+    background-color: #350953;
+}
+
+#colornav:hover{
+
+    background-color: #dfb0ff;
+}
+
+
+#nuevodato{
+
+    background-color: #dfb0ff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nuevodato:hover{
+
+    background-color: darkslateblue;
+}
+
+#colorbuttom{
+
+    background-color: transparent;
+    color: #a87bc7;
+    border-color: #9f75bb;
+}
+
+#colorbuttom:hover{
+
+    background-color: #a87bc7;
+    color: white;
+    border-color: #a87bc7;
+}
+
+.texto{
+
+    color: white;
+    padding: 20px;
+}
+
+.titulos{
+
+    color: #a87bc7;
+    text-align: center;
+}
+
+#alineacion{
+
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.texto2{
+
+    color: black;
+}
+
+.contenedor-3{
+    max-width: 1600px;
+    text-align: center;
+    margin: auto;
+}
+
+#colorbuttomAd {
+    display: inline-block;
+    background-color: #a87bc7;
+    color: aliceblue;
+    width: 100px;
+  }
